@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventscraft Clone</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #000000, #0000ff);
+      color: white;
+    }
+
+    .navbar {
+      background: red;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 30px;
+      flex-wrap: wrap;
+    }
+
+    .navbar a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+    }
+
+    .hero p {
+      margin: 15px 0;
+    }
+
+    .hero button {
+      padding: 10px 20px;
+      background-color: #0057ff;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+      
+      padding: 10px 20px;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      border-radius: 10px;
+      cursor: pointer;
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      transition: background 0.3s ease;
+    
+    }
+
+    .services {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 50px 20px;
+    }
+
+    .service-box {
+      background: white;
+      color: black;
+      border-radius: 10px;
+      width: 300px;
+      margin: 15px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .service-box img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .contact-section {
+      padding: 50px 20px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.1);
+      border-top: 1px solid #fff;
+    }
+
+    .contact-section h2 {
+      margin-bottom: 20px;
+    }
+
+    .contact-item {
+      margin: 10px 0;
+    }
+
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+      }
+
+      .services {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="navbar">
+    <div>
+      <a href="#">Home</a>
+      <a href="#">Events</a>
+      <a href="#">Shop</a>
+      <a href="#">Services</a>
+      <a href="#">Pricing</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact Us</a>
+    </div>
+    <div>
+      <a href="#" style="margin-right: 10px;">Sign In</a>
+      <a href="#" style="background: white; color: red; padding: 5px 10px; border-radius: 5px;">Contact Us</a>
+    </div>
+  </div>
+
+  <div class="hero">
+    <h1>Unleash your <span style="color: #00ffff;">Event Potential</span>.</h1>
+    <p>EVENT COORDINATION BRAND TO TRANSFORM YOUR GATHERINGS INTO TREASURABLE MOMENTS</p>
+    <button>Get Started</button>
+  </div>
+
+  <div class="services">
+    <div class="service-box">
+      <img src="meeting-2284501_1920.jpg" alt="Service 1 Image" />
+      <h3>Service 1</h3>
+      <p>Best Team and Gives Value to Your Brand</p>
+    </div>
+    <div class="service-box">
+      <img src="work-life-balance-5333802_1280.jpg" alt="Service 2 Image" />
+      <h3>Service 2</h3>
+      <p>We created our company to Provide the work life balance.</p>
+    </div>
+    <div class="service-box">
+      <img src="psychologist-8781628_1280 copy.png" alt="Service 3 Image" />
+      <h3>Service 3</h3>
+      <p>Compose of 10 peoples with provides value to your Brand </p>
+    </div>
+  </div>
+
+  <div class="contact-section">
+    <h2>Contact Us</h2>
+    <div class="contact-item">📧 Email: info@eventscraft.com</div>
+    <div class="contact-item">📞 Phone: +1 613-522-2765</div>
+    <div class="contact-item">📍 Address: 106 Sherbrooke St, Wolseley, Saskatchewan S0G, Canada</div>
+  </div>
+</body>
+</html>
